@@ -37,7 +37,7 @@ study.
 |---------|-------------------|
 | [LLM Reliability Lab](https://github.com/yamireddy04/llm-reliability-lab) | Hallucination benchmarking across 3 live LLMs via Groq (Llama 3.1/3.3, GPT-OSS 120B) — dual heuristic + LLM-as-judge scoring, Wilson confidence intervals. CoT reached 87.5% vs. 85.0% zero-shot accuracy (n=40, overlapping CIs). |
 | [MindNook](https://github.com/yamireddy04/MindNook-HCJ) | Prototype of published TechRxiv framework — five-layer NLP architecture with utility-theoretic action selection and ethical filter |
-| [Fake News Detector](https://github.com/yamireddy04/fakenews_detector) | Multi-signal fusion: XLM-RoBERTa + Google Fact Check API + propagation graph features on LIAR dataset |
+| [Fake News Detector](https://github.com/yamireddy04/fakenews_detector) | Multi-signal fusion: XLM-RoBERTa + Google Fact Check API + propagation-graph features on the LIAR dataset, combined via a confidence-dampened weighted ensemble (FastAPI + React). |
 | [PrognosAI](https://github.com/yamireddy04/Prognos-AI) | Clinical NLP: 30-day readmission, LOS, and specialty prediction from discharge notes — three pipelines (TF-IDF, vitals-hybrid, LLM), SHAP/phrase-level explainability, CI + Docker |
 | [Prism](https://github.com/yamireddy04/prism) | RAG pipeline with FAISS vector search and claim-level hallucination detection — unsupported claims flagged before reaching the user; Dockerized backend/frontend with a real evaluation harness (Recall@5, groundedness rate, Wilson CIs) |
 | [PrepSphere](https://github.com/yamireddy04/PrepSphere) | AI placement-prep platform with dual LLM reliability paths — live Groq proxy + BullMQ async queue with Zod schema validation. Node.js · MongoDB · Vanilla JS. |
