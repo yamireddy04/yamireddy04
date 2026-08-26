@@ -39,7 +39,7 @@ study.
 | [MindNook](https://github.com/yamireddy04/MindNook-HCJ) | Prototype of a published TechRxiv framework: five-layer NLP pipeline (sentiment, pragmatics, temporal trend, goal alignment, utility-based action selection) with a two-stage safety layer (negation-aware crisis screening + LLM output moderation) and user-adjustable intervention thresholds. Supabase/Deno + Groq Llama 3.3 70B, Postgres RLS, 35-test Vitest suite. |
 | [Fake News Detector](https://github.com/yamireddy04/fakenews_detector) | Multi-signal fusion: XLM-RoBERTa + Google Fact Check API + propagation-graph features on the LIAR dataset, combined via a confidence-dampened weighted ensemble (FastAPI + React). |
 | [PrognosAI](https://github.com/yamireddy04/Prognos-AI) | Clinical NLP: 30-day readmission, LOS, and specialty prediction from discharge notes — three pipelines (TF-IDF, vitals-hybrid, LLM), SHAP/phrase-level explainability, CI + Docker |
-| [Prism](https://github.com/yamireddy04/prism) | RAG pipeline with FAISS vector search and claim-level hallucination detection — unsupported claims flagged before reaching the user; Dockerized backend/frontend with a real evaluation harness (Recall@5, groundedness rate, Wilson CIs) |
+| [Prism](https://github.com/yamireddy04/prism) | Hybrid dense+BM25 RAG pipeline with cross-encoder reranking and claim-level hallucination detection; JWT-authenticated multi-user backend (Postgres/pgvector, Redis) with CI/CD and a Wilson-CI evaluation harness (Recall@5, MRR, groundedness rate). |
 | [PrepSphere](https://github.com/yamireddy04/PrepSphere) | AI placement-prep platform with dual LLM reliability paths — live Groq proxy + BullMQ async queue with Zod schema validation. Node.js · MongoDB · Vanilla JS. |
 
 ---
